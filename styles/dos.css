@@ -1,0 +1,16 @@
+.boton.dos::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(calc(-100% + 40px));
+
+    border-bottom: 80px solid #286cff;
+    border-right: 80px solid transparent;
+
+    transition: .4s ease-in-out transform;
+
+}
+.boton.dos:hover::after {
+    transform: translateX(calc(40px));
+}
