@@ -1,0 +1,21 @@
+.boton.cuatro::after {
+    content: '';
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+
+.boton.cuatro:hover::after {
+    transform: scale(300);
+    background: #9710cc;
+}
+.boton.cuatro:hover {
+    background: #1c0227;
+}
